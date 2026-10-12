@@ -5,12 +5,12 @@ using namespace std;
 int main() {
     int book[5],searchID;
     cout<<"Enter 5 Book IDS:\n";
-    for(int i=0;i<5;i++) cin>>book{i};
+    for(int i=0;i<5;i++) cin>>book [i];
     cout<<"Enter Book ID to search:";
     cin>> searchID;
     for(int i=0;i<5;i++){
         if(book[i]==searchID){
-            Cout<<"Book Found!";
+        cout<<"Book Found!";
             return 0;
         }
     }
